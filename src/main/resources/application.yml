@@ -1,0 +1,30 @@
+application:
+ name: activities
+
+server:
+  port: 8080
+
+# Configuration de la source de données PostgreSQL
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/activities
+    username: postgres
+    password: admin
+    driver-class-name: org.postgresql.Driver
+
+  # Configuration de Hibernate (si vous utilisez JPA)
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+# Configuration du pool de connexions (facultatif, mais recommandé)
+# datasource:
+#    hikari:
+#      maximum-pool-size: 5
+#      minimum-idle: 3
+
+# D'autres configurations spécifiques à votre application
