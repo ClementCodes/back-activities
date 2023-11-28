@@ -92,7 +92,7 @@
 				<groupId>org.liquibase</groupId>
 				<artifactId>liquibase-maven-plugin</artifactId>
 				<configuration>
-					<propertyFile>src/main/resources/changelog.xml</propertyFile>>
+					<propertyFile>src/main/resources/liquibase.properties</propertyFile>>
 				</configuration>
 			</plugin>
 		</plugins>

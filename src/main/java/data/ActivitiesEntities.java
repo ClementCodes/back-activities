@@ -15,3 +15,4 @@ public class ActivitiesEntities {
 	private String jeuxeSociete;
 
 }
+serverserverserverdyesdxsgu
